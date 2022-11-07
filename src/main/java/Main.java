@@ -2,8 +2,6 @@ import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.misc.ParseCancellationException;
 import org.antlr.v4.runtime.tree.ParseTree;
 
-import java.util.Scanner;
-
 public class Main {
   public static String apply(String input) {
     ArithmeticLexer lexer = new ArithmeticLexer(CharStreams.fromString(input));
